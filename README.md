@@ -66,7 +66,7 @@ $ r0sbag cat ~/data/bags/demo.bag | head -n 1
 {"topic": "/diagnostics", "time": 1490149580103843113, "data": {"header":{"seq":2602,"stamp":1490149580.113375843,"frame_id":""},"status":[{"level":0,"name":"velodyne_nodelet_manager: velodyne_packets topic status","message":"Desired frequency met; Timestamps are reasonable.","hardware_id":"Velodyne HDL-32E","values":[{"key":"Events in window","value":"100"},{"key":"Events since startup","value":"26020"},{"key":"Duration of window (s)","value":"10.008710"},{"key":"Actual frequency (Hz)","value":"9.991298"},{"key":"Target frequency (Hz)","value":"9.988950"},{"key":"Minimum acceptable frequency (Hz)","value":"8.990055"},{"key":"Maximum acceptable frequency (Hz)","value":"10.987845"},{"key":"Earliest timestamp delay:","value":"0.000300"},{"key":"Latest timestamp delay:","value":"0.000322"},{"key":"Earliest acceptable timestamp delay:","value":"-1.000000"},{"key":"Latest acceptable timestamp delay:","value":"5.000000"},{"key":"Late diagnostic update count:","value":"0"},{"key":"Early diagnostic update count:","value":"0"},{"key":"Zero seen diagnostic update count:","value":"0"}]}]}}
 ```
 
-#### Print messaage timestamps
+#### Print message timestamps
 
 ```
 $ r0sbag cat ~/data/bags/demo.bag --simple | head -n 1
